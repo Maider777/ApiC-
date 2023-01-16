@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ks3WTUvMH77h22cI0l6hgxY2oPpxyLHKLFy/+F1WUoQxpn/dD6EFntkOwJto5yRwx3wsjVcAnwSBAE9wU4iHYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maide\\source\\repos\\FrankPatata\\FrankPatata\\FrankPatata.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maide\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\maide\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
