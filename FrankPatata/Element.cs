@@ -501,7 +501,7 @@ namespace FrankPatata
                 else
                 {
                     //add comment to label
-                    labelComments.Text += "\n" + "Username: " + Form1.username + "\n" + "Comment: " + comment + "\n" + "Hour: " + CreateCommentElement.hora + "\n";
+                    labelComments.Text += "\n" + Form1.username + " - " + CreateCommentElement.hora + "\n" + comment + "\n";
                 }
             }
         }

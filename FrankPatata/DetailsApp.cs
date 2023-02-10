@@ -101,7 +101,7 @@ namespace FrankPatata
                 string responseContent = restResponse.Content.ToString();
                 //if its ok
                 comment = textBoxComment.Text;
-                comments.Text += "\n" + "Username:" + Form1.username + "\n" + "Hour:" + hourMinute + "\n" + comment + "\n";
+                comments.Text += "\n" + Form1.username + " - " + hourMinute + "\n" + comment + "\n";
                 
             }
         }
