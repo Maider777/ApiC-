@@ -1,0 +1,7 @@
+C:\Users\maide\OneDrive\Escritorio\appActualizada\FrankPatata.exe
+C:\Users\maide\OneDrive\Escritorio\appActualizada\FrankPatata.dll
+C:\Users\maide\OneDrive\Escritorio\appActualizada\FrankPatata.deps.json
+C:\Users\maide\OneDrive\Escritorio\appActualizada\FrankPatata.runtimeconfig.json
+C:\Users\maide\OneDrive\Escritorio\appActualizada\FrankPatata.pdb
+C:\Users\maide\OneDrive\Escritorio\appActualizada\Newtonsoft.Json.dll
+C:\Users\maide\OneDrive\Escritorio\appActualizada\RestSharp.dll

@@ -1,34 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\maide\source\repos\FrankPatata\FrankPatata\Properties\PublishProfiles\FolderProfile1.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
   <ItemGroup>
-    <Compile Update="Appcs.cs">
+    <Compile Update="menuApps.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="DetailsApp1.cs">
+    <Compile Update="DetailsApp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="DetailsApp2.cs">
+    <Compile Update="Element.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="DetailsApp3.cs">
+    <Compile Update="Favs.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FreeToPlay.cs">
+    <Compile Update="App.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Load.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Netflix.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="PokeApi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Registro.cs">
+    <Compile Update="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

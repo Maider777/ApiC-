@@ -28,134 +28,150 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBoxUsuario = new System.Windows.Forms.TextBox();
-            this.textBoxContrasena = new System.Windows.Forms.TextBox();
-            this.buttonEntrar = new System.Windows.Forms.Button();
+            this.linkSignUp = new System.Windows.Forms.LinkLabel();
             this.label4 = new System.Windows.Forms.Label();
-            this.linkLabelRegistrate = new System.Windows.Forms.LinkLabel();
+            this.buttonEntrar = new System.Windows.Forms.Button();
+            this.textBoxContrasena = new System.Windows.Forms.TextBox();
+            this.textBoxUsuario = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // linkSignUp
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(362, 54);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 41);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Login";
+            this.linkSignUp.BackColor = System.Drawing.Color.Transparent;
+            this.linkSignUp.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.linkSignUp.LinkColor = System.Drawing.Color.White;
+            this.linkSignUp.Location = new System.Drawing.Point(968, 598);
+            this.linkSignUp.Name = "linkSignUp";
+            this.linkSignUp.Size = new System.Drawing.Size(107, 37);
+            this.linkSignUp.TabIndex = 16;
+            this.linkSignUp.TabStop = true;
+            this.linkSignUp.Text = "Sign up";
+            this.linkSignUp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.linkSignUp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSignUp_LinkClicked);
             // 
-            // label2
+            // label4
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(206, 142);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 30);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "User:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(206, 197);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 30);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Password:";
-            // 
-            // textBoxUsuario
-            // 
-            this.textBoxUsuario.Location = new System.Drawing.Point(274, 147);
-            this.textBoxUsuario.Name = "textBoxUsuario";
-            this.textBoxUsuario.Size = new System.Drawing.Size(306, 27);
-            this.textBoxUsuario.TabIndex = 3;
-            // 
-            // textBoxContrasena
-            // 
-            this.textBoxContrasena.Location = new System.Drawing.Point(320, 202);
-            this.textBoxContrasena.Name = "textBoxContrasena";
-            this.textBoxContrasena.Size = new System.Drawing.Size(260, 27);
-            this.textBoxContrasena.TabIndex = 4;
-            this.textBoxContrasena.UseSystemPasswordChar = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(797, 598);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(165, 37);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "No account?";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // buttonEntrar
             // 
-            this.buttonEntrar.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonEntrar.Location = new System.Drawing.Point(352, 274);
+            this.buttonEntrar.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonEntrar.Location = new System.Drawing.Point(886, 527);
             this.buttonEntrar.Name = "buttonEntrar";
-            this.buttonEntrar.Size = new System.Drawing.Size(111, 45);
-            this.buttonEntrar.TabIndex = 5;
+            this.buttonEntrar.Size = new System.Drawing.Size(126, 51);
+            this.buttonEntrar.TabIndex = 14;
             this.buttonEntrar.Text = "Sign in";
             this.buttonEntrar.UseVisualStyleBackColor = true;
             this.buttonEntrar.Click += new System.EventHandler(this.buttonSignIn_Click);
             // 
-            // label4
+            // textBoxContrasena
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(278, 343);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(133, 30);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "No account?";
+            this.textBoxContrasena.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxContrasena.Location = new System.Drawing.Point(750, 432);
+            this.textBoxContrasena.Name = "textBoxContrasena";
+            this.textBoxContrasena.Size = new System.Drawing.Size(406, 43);
+            this.textBoxContrasena.TabIndex = 13;
+            this.textBoxContrasena.UseSystemPasswordChar = true;
             // 
-            // linkLabelRegistrate
+            // textBoxUsuario
             // 
-            this.linkLabelRegistrate.AutoSize = true;
-            this.linkLabelRegistrate.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabelRegistrate.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelRegistrate.LinkColor = System.Drawing.Color.White;
-            this.linkLabelRegistrate.Location = new System.Drawing.Point(417, 343);
-            this.linkLabelRegistrate.Name = "linkLabelRegistrate";
-            this.linkLabelRegistrate.Size = new System.Drawing.Size(86, 30);
-            this.linkLabelRegistrate.TabIndex = 8;
-            this.linkLabelRegistrate.TabStop = true;
-            this.linkLabelRegistrate.Text = "Sign up";
-            this.linkLabelRegistrate.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.textBoxUsuario.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxUsuario.Location = new System.Drawing.Point(750, 293);
+            this.textBoxUsuario.Name = "textBoxUsuario";
+            this.textBoxUsuario.Size = new System.Drawing.Size(406, 43);
+            this.textBoxUsuario.TabIndex = 12;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(750, 392);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(128, 37);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Password";
+            // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Location = new System.Drawing.Point(0, 160);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(1902, 83);
+            this.label6.TabIndex = 18;
+            this.label6.Text = "Login";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(750, 253);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(70, 37);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "User";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.textBoxUsuario);
+            this.panel1.Controls.Add(this.linkSignUp);
+            this.panel1.Controls.Add(this.textBoxContrasena);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.buttonEntrar);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1902, 1033);
+            this.panel1.TabIndex = 19;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::FrankPatata.Properties.Resources.gradient2;
-            this.ClientSize = new System.Drawing.Size(800, 422);
-            this.Controls.Add(this.linkLabelRegistrate);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.buttonEntrar);
-            this.Controls.Add(this.textBoxContrasena);
-            this.Controls.Add(this.textBoxUsuario);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.Controls.Add(this.panel1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private TextBox textBoxUsuario;
-        private TextBox textBoxContrasena;
-        private Button buttonEntrar;
+        private LinkLabel linkSignUp;
         private Label label4;
-        private LinkLabel linkLabelRegistrate;
+        private Button buttonEntrar;
+        private TextBox textBoxContrasena;
+        private TextBox textBoxUsuario;
+        private Label label3;
+        private Label label6;
+        private Label label5;
+        private Panel panel1;
     }
 }

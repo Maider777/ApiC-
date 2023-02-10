@@ -10,5 +10,6 @@ namespace FrankPatata
     {
         public string username { get; set; }
         public string accessToken { get; set; }
+        public int user_id { get; set; }
     }
 }

@@ -6,37 +6,36 @@ namespace FrankPatata
 {
     public partial class Form1 : Form
     {
-        string username;
-        string password;
+        //variables
+        public static string username;
+        public static string password;
+        public static int userId;
         public static string token;
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            //abrir nueva ventana para registrarse
-            Registro form = new Registro();
-            form.ShowDialog();
-        }
-
         private void buttonSignIn_Click(object sender, EventArgs e)
         {
-            //guardar datos
+            //save data
             username = textBoxUsuario.Text;
-            if(username==null || (username.Length < 0))
+            if(username!=null || (username.Length > 0))
             {
                 password = textBoxContrasena.Text;
-                if(password == null || (password.Length < 0))
+                if(password != null || (password.Length > 0))
                 {
-                    //autenticacion de usuario
+                    //user authentication
                     postUser();
+                }
+                else
+                {
+                    Interaction.MsgBox("Error, password is not correct");
                 }
             }
             else
             {
-                Interaction.MsgBox("Error, username not correct");
+                Interaction.MsgBox("Error, username is not correct");
             }
             
         }
@@ -47,31 +46,31 @@ namespace FrankPatata
             {
                 username = username,
                 password = password,
+                user_id = userId,
             };
 
-            Uri RequestUri = new Uri("http://10.10.12.87:8080/auth/login");
+            Uri RequestUri = new Uri("http://localhost:8080/auth/login");
 
             var client = new HttpClient();
-            //serializar objeto
+            //serialize object
             string jsonString = JsonSerializer.Serialize(UserDTO);
             var content = new StringContent(jsonString, System.Text.Encoding.UTF8, "application/json");
             var response = await client.PostAsync(RequestUri, content);
-            //string responseContent = response.Content.ToString();
-            //List<ClassSignIn> listMensajes = JsonConvert.DeserializeObject<List<ClassSignIn>>(responseContent);
-            //Interaction.MsgBox(response.ToString());
+            //if its ok
             if (response.IsSuccessStatusCode)
             {
                 string body = await response.Content.ReadAsStringAsync();
-                //System.Diagnostics.Debug.WriteLine(body);
+                
                 var result = JsonConvert.DeserializeObject<ClassAuthResponse>(body);
                 token = result.accessToken;
+                userId=result.user_id;
 
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
-                    //System.Diagnostics.Debug.WriteLine(response.Content.ToString());
                     Interaction.MsgBox("User is correct");
-                    //abrir aplicacion y cerrar la presente
-                    Appcs app = new Appcs();
+                    this.Hide();
+                    //open application and close the present
+                    menuApps app = new menuApps();
                     app.ShowDialog();
                 }
                 else
@@ -82,9 +81,15 @@ namespace FrankPatata
             else
             {
                 //mostrar error
-                Interaction.MsgBox(response.StatusCode); 
+                Interaction.MsgBox("Error, something is wrong"); 
             }
         }
 
+        private void linkSignUp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //open new form to sign in
+            SignUp form = new SignUp();
+            form.ShowDialog();
+        }
     }
 }

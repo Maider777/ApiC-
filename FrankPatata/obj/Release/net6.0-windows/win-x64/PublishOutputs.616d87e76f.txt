@@ -1,0 +1,7 @@
+C:\Users\maide\OneDrive\Escritorio\Aplicacion\FrankPatata.pdb
+C:\Users\maide\OneDrive\Escritorio\Aplicacion\D3DCompiler_47_cor3.dll
+C:\Users\maide\OneDrive\Escritorio\Aplicacion\PenImc_cor3.dll
+C:\Users\maide\OneDrive\Escritorio\Aplicacion\PresentationNative_cor3.dll
+C:\Users\maide\OneDrive\Escritorio\Aplicacion\vcruntime140_cor3.dll
+C:\Users\maide\OneDrive\Escritorio\Aplicacion\wpfgfx_cor3.dll
+C:\Users\maide\OneDrive\Escritorio\Aplicacion\FrankPatata.exe

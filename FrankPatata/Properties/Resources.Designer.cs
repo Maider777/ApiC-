@@ -63,9 +63,19 @@ namespace FrankPatata.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap freeToPlay__1_ {
+        internal static System.Drawing.Bitmap envia2 {
             get {
-                object obj = ResourceManager.GetObject("freeToPlay (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("envia2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap freeToPlay {
+            get {
+                object obj = ResourceManager.GetObject("freeToPlay", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,6 +113,36 @@ namespace FrankPatata.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_salir_redondeado_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-salir-redondeado-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_spinner {
+            get {
+                object obj = ResourceManager.GetObject("icons8-spinner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_volver_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-volver-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Loading {
             get {
                 object obj = ResourceManager.GetObject("Loading", resourceCulture);
@@ -113,9 +153,9 @@ namespace FrankPatata.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap netflix__1_ {
+        internal static System.Drawing.Bitmap me_gusta {
             get {
-                object obj = ResourceManager.GetObject("netflix (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("me-gusta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +163,29 @@ namespace FrankPatata.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pokeApi__5_ {
+        internal static System.Drawing.Bitmap netflix {
             get {
-                object obj = ResourceManager.GetObject("pokeApi (5)", resourceCulture);
+                object obj = ResourceManager.GetObject("netflix", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap no_me_gusta {
+            get {
+                object obj = ResourceManager.GetObject("no-me-gusta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pokeApi {
+            get {
+                object obj = ResourceManager.GetObject("pokeApi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

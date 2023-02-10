@@ -6,7 +6,6 @@ C:\Users\maide\source\repos\FrankPatata\FrankPatata\bin\Debug\net6.0-windows\Fra
 C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.csproj.AssemblyReference.cache
 C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.Form1.resources
 C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.Properties.Resources.resources
-C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.Registro.resources
 C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.csproj.GenerateResource.cache
 C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.AssemblyInfoInputs.cache
@@ -19,12 +18,10 @@ C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\Fra
 C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\ref\FrankPatata.dll
 C:\Users\maide\source\repos\FrankPatata\FrankPatata\bin\Debug\net6.0-windows\RestSharp.dll
 C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.csproj.CopyComplete
-C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.Appcs.resources
-C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.DetailsApp1.resources
-C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.DetailsApp2.resources
-C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.DetailsApp3.resources
-C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.FreeToPlay.resources
-C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.Netflix.resources
-C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.PokeApi.resources
 C:\Users\maide\source\repos\FrankPatata\FrankPatata\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
-C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.Load.resources
+C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.Favs.resources
+C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.App.resources
+C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.menuApps.resources
+C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.DetailsApp.resources
+C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.SignUp.resources
+C:\Users\maide\source\repos\FrankPatata\FrankPatata\obj\Debug\net6.0-windows\FrankPatata.Element.resources
